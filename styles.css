@@ -1,0 +1,93 @@
+/* Подключение шрифта */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+/* Основные стили */
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #080808;
+    color: #e0e3e3;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Контейнер */
+.container {
+    max-width: 800px;
+    background: #0d1117;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Заголовок */
+.header {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    border: 3px solid #74b2ff;
+}
+
+h1, h2 {
+    color: #80a0ff;
+    font-weight: 700;
+}
+
+/* Линия-разделитель */
+hr {
+    border: 0;
+    height: 1px;
+    background: #929db1;
+    margin: 20px 0;
+}
+
+/* Списки */
+ul {
+    padding-left: 20px;
+}
+
+ol {
+    padding-left: 40px;
+}
+
+ul li, ol li {
+    margin-bottom: 5px;
+}
+
+/* Таблица */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #080808;
+}
+
+table, th, td {
+    border: 1px solid #929db1;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background: #080808;
+    color: #85dc85;
+}
+
+/* Ссылки */
+a {
+    color: #ae81ff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c678dd;
+}
+
