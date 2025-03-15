@@ -1,7 +1,5 @@
-/* Подключение шрифта */
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap");
 
-/* Основные стили */
 body {
   font-family: "JetBrains Mono", monospace;
   background-color: #080808;
@@ -10,7 +8,6 @@ body {
   padding: 0;
 }
 
-/* Контейнер */
 .container {
   max-width: 800px;
   background: #0d1117;
@@ -21,7 +18,6 @@ body {
   position: relative;
 }
 
-/* Заголовок */
 .header {
   text-align: center;
 }
@@ -37,7 +33,6 @@ h2 {
   font-weight: 700;
 }
 
-/* Линия-разделитель */
 hr {
   border: 0;
   height: 1px;
@@ -45,7 +40,6 @@ hr {
   margin: 20px 0;
 }
 
-/* Списки */
 ul {
   padding-left: 20px;
 }
@@ -59,7 +53,6 @@ ol li {
   margin-bottom: 5px;
 }
 
-/* Таблица */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -85,7 +78,6 @@ th {
   color: #85dc85;
 }
 
-/* Ссылки */
 a {
   color: #ae81ff;
   text-decoration: none;
@@ -97,7 +89,6 @@ a:hover {
   color: #c678dd;
 }
 
-/* Кнопки */
 button {
   font-size: 16px;
   font-weight: 700;
@@ -114,4 +105,16 @@ button {
 button:hover {
   text-decoration: underline;
 }
+
+.skills-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.download-resume {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
 
